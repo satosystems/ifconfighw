@@ -34,6 +34,7 @@ library
       src
   build-depends:
       base >=4.7 && <5
+    , process
   default-language: Haskell2010
 
 executable ifconfighw
@@ -46,6 +47,7 @@ executable ifconfighw
   build-depends:
       base >=4.7 && <5
     , ifconfighw
+    , process
   default-language: Haskell2010
 
 test-suite test
@@ -59,4 +61,5 @@ test-suite test
   build-depends:
       base >=4.7 && <5
     , ifconfighw
+    , process
   default-language: Haskell2010
