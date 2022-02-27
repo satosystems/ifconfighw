@@ -1,6 +1,8 @@
 module Main where
 
-import           Lib                            ( someFunc )
+import           System.Environment             ( getArgs )
+
+import           Lib                            ( run )
 
 main :: IO ()
-main = someFunc
+main = getArgs >>= run
